@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+	package
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:1-14:12
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:4:22-76
+application
+ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:5:5-13:19
+activity#com.iblogstreet.liveness.sdk.activity.LivenessActivity
+ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:7:9-11:72
+	android:screenOrientation
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:10:13-49
+	android:launchMode
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:9:13-43
+	android:theme
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:11:13-69
+	android:name
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml:8:13-82
+uses-sdk
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		ADDED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml
+		INJECTED from /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/AndroidManifest.xml

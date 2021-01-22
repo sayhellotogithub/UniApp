@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/junwang/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/junwang/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/junwang/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/junwang/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

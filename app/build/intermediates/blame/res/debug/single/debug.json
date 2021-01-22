@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/build/intermediates/res/merged/debug/drawable-xxhdpi_push.png.flat",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/res/drawable-xxhdpi/push.png"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon.png.flat",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash.png.flat",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/res/drawable-xxhdpi/splash.png"
+    }
+]

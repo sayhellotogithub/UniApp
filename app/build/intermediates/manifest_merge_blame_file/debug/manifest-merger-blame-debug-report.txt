@@ -1,0 +1,387 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.HBuilder.UniPlugin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:5:5-10:39
+12        android:anyDensity="true"
+12-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:6:9-34
+13        android:largeScreens="true"
+13-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:7:9-36
+14        android:normalScreens="true"
+14-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:8:9-37
+15        android:resizeable="true"
+15-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:9:9-34
+16        android:smallScreens="true" />
+16-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:10:9-36
+17
+18    <!-- Barcode(二维码)  begin -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:13:5-65
+19-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:13:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:14:5-81
+20-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:14:22-78
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:16:5-60
+22-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:16:19-57
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:17:5-70
+23-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:17:19-67
+24
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:19:5-66
+25-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:19:22-63
+26    <uses-permission android:name="android.permission.FLASHLIGHT" />
+26-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:20:5-69
+26-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:20:22-66
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:11:5-79
+27-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:11:22-76
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:17:5-67
+28-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:17:22-64
+29    <!--
+30    <uses-permission
+31        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+32    -->
+33    <!-- 华为修改角标需要设置权限 -->
+34    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
+34-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:24:5-91
+34-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:24:22-88
+35    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+35-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:26:5-83
+35-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:26:22-80
+36    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[liveness_lib_v1.2.4.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/cc3f9ff5a6854fd7bd901c1cd2ca91ce/liveness_lib_v1.2.4/AndroidManifest.xml:16:5-68
+37-->[liveness_lib_v1.2.4.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/cc3f9ff5a6854fd7bd901c1cd2ca91ce/liveness_lib_v1.2.4/AndroidManifest.xml:16:22-65
+38    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+38-->[msa_mdid_1.0.13.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/e68a4a74a97c5e1f0ca58e6bd5416e23/msa_mdid_1.0.13/AndroidManifest.xml:5:5-75
+38-->[msa_mdid_1.0.13.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/e68a4a74a97c5e1f0ca58e6bd5416e23/msa_mdid_1.0.13/AndroidManifest.xml:5:22-72
+39    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" /> <!-- Barcode(二维码)  end -->
+39-->[msa_mdid_1.0.13.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/e68a4a74a97c5e1f0ca58e6bd5416e23/msa_mdid_1.0.13/AndroidManifest.xml:8:5-76
+39-->[msa_mdid_1.0.13.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/e68a4a74a97c5e1f0ca58e6bd5416e23/msa_mdid_1.0.13/AndroidManifest.xml:8:22-73
+40    <application
+40-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:23:5-94:19
+41        android:name="io.dcloud.application.DCloudApplication"
+41-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:24:9-63
+42        android:allowBackup="true"
+42-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:25:9-35
+43        android:allowClearUserData="true"
+43-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:26:9-42
+44        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+44-->[com.android.support:support-compat:28.0.0] /Users/junwang/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+45        android:debuggable="true"
+45-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:30:9-34
+46        android:icon="@drawable/icon"
+46-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:27:9-38
+47        android:label="@string/app_name"
+47-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:28:9-41
+48        android:largeHeap="true"
+48-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:29:9-33
+49        android:supportsRtl="true"
+49-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:31:9-35
+50        android:testOnly="true"
+51        android:usesCleartextTraffic="true" >
+51-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:161:9-44
+52
+53        <!-- 应用入口 -->
+54        <activity
+54-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:34:9-56:20
+55            android:name="io.dcloud.PandoraEntry"
+55-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:35:13-50
+56            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+56-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:37:13-92
+57            android:hardwareAccelerated="true"
+57-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:38:13-47
+58            android:theme="@style/TranslucentTheme"
+58-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:36:13-52
+59            android:windowSoftInputMode="adjustResize" >
+59-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:39:13-55
+60            <intent-filter>
+60-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:40:13-46:29
+61                <data android:scheme="hbuilder" />
+61-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:17-50
+61-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:23-48
+62
+63                <action android:name="android.intent.action.VIEW" />
+63-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:42:17-68
+63-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:42:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:44:17-75
+65-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:44:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:45:17-77
+66-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:45:27-75
+67            </intent-filter>
+68            <intent-filter>
+68-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:47:13-51:29
+69                <data android:mimeType="image/*" />
+69-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:17-50
+69-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:48:23-49
+70
+71                <action android:name="android.intent.action.SEND" />
+71-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:49:17-68
+71-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:49:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:44:17-75
+73-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:44:27-73
+74            </intent-filter>
+75            <intent-filter>
+75-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:52:13-55:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:53:17-68
+76-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:53:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:54:17-76
+78-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:54:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <meta-data
+82-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:57:9-58:35
+83            android:name="dcloud_uninview_background"
+83-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:57:20-61
+84            android:value="true" />
+84-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:58:13-33
+85
+86        <activity
+86-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:60:9-84:20
+87            android:name="io.dcloud.PandoraEntryActivity"
+87-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:61:13-58
+88            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+88-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:63:13-101
+89            android:hardwareAccelerated="true"
+89-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:64:13-47
+90            android:launchMode="singleTask"
+90-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:62:13-44
+91            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+91-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:65:13-89
+92            android:screenOrientation="user"
+92-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:66:13-45
+93            android:theme="@style/DCloudTheme"
+93-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:67:13-47
+94            android:windowSoftInputMode="adjustResize" >
+94-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:68:13-55
+95            <intent-filter>
+95-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:70:13-83:29
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:44:17-75
+96-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:44:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:45:17-77
+97-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:45:27-75
+98
+99                <action android:name="android.intent.action.VIEW" />
+99-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:42:17-68
+99-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:42:25-66
+100
+101                <data android:scheme="h56131bcf" />
+101-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:17-50
+101-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:23-48
+102            </intent-filter>
+103        </activity>
+104
+105        <provider
+105-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:85:9-93:20
+106            android:name="io.dcloud.common.util.DCloud_FileProvider"
+106-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:86:13-69
+107            android:authorities="com.HBuilder.UniPlugin.dc.fileprovider"
+107-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:87:13-73
+108            android:exported="false"
+108-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:88:13-37
+109            android:grantUriPermissions="true" >
+109-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:89:13-47
+110            <meta-data
+110-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:90:13-92:64
+111                android:name="android.support.FILE_PROVIDER_PATHS"
+111-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:91:17-67
+112                android:resource="@xml/dcloud_file_provider" />
+112-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:92:17-61
+113        </provider>
+114
+115        <activity
+115-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:14:9-18:72
+116            android:name="com.iblogstreet.liveness.sdk.activity.LivenessActivity"
+116-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:15:13-82
+117            android:launchMode="singleTop"
+117-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:16:13-43
+118            android:screenOrientation="portrait"
+118-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:17:13-49
+119            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+119-->[liveness-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/be512feb8d1a8cef3a2d4a67267ceec4/liveness-release/AndroidManifest.xml:18:13-69
+120
+121        <service
+121-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:162:9-164:40
+122            android:name="io.dcloud.common.adapter.io.MiniServerService"
+122-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:163:13-73
+123            android:exported="false" />
+123-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:164:13-37
+124
+125        <receiver
+125-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:166:9-172:20
+126            android:name="io.dcloud.common.adapter.io.PushReceiver"
+126-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:167:13-68
+127            android:exported="false" >
+127-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:168:13-37
+128            <intent-filter>
+128-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:169:13-171:29
+129                <action android:name="dcloud.push.broswer" />
+129-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:170:17-62
+129-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:170:25-59
+130            </intent-filter>
+131        </receiver>
+132
+133        <activity
+133-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:174:9-177:40
+134            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+134-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:175:13-69
+135            android:exported="false"
+135-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:176:13-37
+136            android:noHistory="true" />
+136-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:177:13-37
+137        <activity
+137-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:178:9-182:58
+138            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+138-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:179:13-79
+139            android:exported="false"
+139-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:180:13-37
+140            android:noHistory="false"
+140-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:181:13-38
+141            android:theme="@style/DeviceDefault.Light" />
+141-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:182:13-55
+142        <activity
+142-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:183:9-193:58
+143            android:name="io.dcloud.WebAppActivity"
+143-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:184:13-52
+144            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+144-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:185:13-92
+145            android:hardwareAccelerated="true"
+145-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:186:13-47
+146            android:icon="@drawable/dcloud_recent"
+146-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:187:13-51
+147            android:label="@string/stream_my"
+147-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:188:13-46
+148            android:launchMode="singleTask"
+148-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:189:13-44
+149            android:screenOrientation="portrait"
+149-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:190:13-49
+150            android:taskAffinity=":stream"
+150-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:191:13-43
+151            android:theme="@style/DCloudTheme"
+151-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:192:13-47
+152            android:windowSoftInputMode="adjustResize" />
+152-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:193:13-55
+153        <activity
+153-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:194:9-200:75
+154            android:name="io.dcloud.ProcessMediator"
+154-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:195:13-53
+155            android:excludeFromRecents="true"
+155-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:196:13-46
+156            android:exported="false"
+156-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:197:13-37
+157            android:label="@string/app_name"
+157-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:198:13-45
+158            android:launchMode="singleTop"
+158-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:199:13-43
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:200:13-72
+160        <activity
+160-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:201:9-207:20
+161            android:name="io.dcloud.WebviewActivity"
+161-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:202:13-53
+162            android:exported="false"
+162-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:203:13-37
+163            android:screenOrientation="portrait"
+163-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:204:13-49
+164            android:theme="@style/ThemeNoTitleBar"
+164-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:205:13-51
+165            android:windowSoftInputMode="adjustPan" >
+165-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:206:13-52
+166        </activity>
+167
+168        <receiver
+168-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:209:9-220:20
+169            android:name="io.dcloud.common.adapter.io.DownloadReceiver"
+169-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:210:13-72
+170            android:exported="false" >
+170-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:211:13-37
+171            <intent-filter>
+171-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:212:13-214:29
+172                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+172-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:213:17-82
+172-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:213:25-79
+173            </intent-filter>
+174            <intent-filter>
+174-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:215:13-219:29
+175                <action android:name="android.intent.action.PACKAGE_ADDED" />
+175-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:216:17-78
+175-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:216:25-75
+176
+177                <data android:scheme="package" /> <!-- HERE! -->
+177-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:17-50
+177-->/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/src/main/AndroidManifest.xml:41:23-48
+178            </intent-filter>
+179        </receiver>
+180        <!--
+181        <provider
+182            android:name="io.dcloud.common.util.DCloud_FileProvider"
+183            android:authorities="${apk.applicationId}.dc.fileprovider"
+184            android:exported="false"
+185            android:grantUriPermissions="true">
+186            <meta-data
+187                android:name="android.support.FILE_PROVIDER_PATHS"
+188                android:resource="@xml/dcloud_file_provider" />
+189        </provider>
+190        -->
+191        <!--
+192            <meta-data
+193            android:name="DCLOUD_STREAMAPP_CHANNEL"
+194            android:value="io.dcloud.%APPID%|%APPID%|" />
+195        -->
+196        <meta-data
+196-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:238:9-240:35
+197            android:name="android.max_aspect"
+197-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:239:13-46
+198            android:value="2.4" />
+198-->[lib.5plus.base-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/5e4eaf265c20a39516df24c8a1884c73/lib.5plus.base-release/AndroidManifest.xml:240:13-32
+199
+200        <service
+200-->[liveness_lib_v1.2.4.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/cc3f9ff5a6854fd7bd901c1cd2ca91ce/liveness_lib_v1.2.4/AndroidManifest.xml:21:9-23:72
+201            android:name="ai.advance.liveness.lib.LService"
+201-->[liveness_lib_v1.2.4.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/cc3f9ff5a6854fd7bd901c1cd2ca91ce/liveness_lib_v1.2.4/AndroidManifest.xml:22:13-60
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[liveness_lib_v1.2.4.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/cc3f9ff5a6854fd7bd901c1cd2ca91ce/liveness_lib_v1.2.4/AndroidManifest.xml:23:13-69
+203
+204        <receiver
+204-->[uniapp-v8-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/34ab32c16dd94dfb9d2e202c5113de77/uniapp-v8-release/AndroidManifest.xml:30:9-34:20
+205            android:name="com.taobao.weex.WXGlobalEventReceiver"
+205-->[uniapp-v8-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/34ab32c16dd94dfb9d2e202c5113de77/uniapp-v8-release/AndroidManifest.xml:31:13-65
+206            android:enabled="true"
+206-->[uniapp-v8-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/34ab32c16dd94dfb9d2e202c5113de77/uniapp-v8-release/AndroidManifest.xml:32:13-35
+207            android:exported="false" >
+207-->[uniapp-v8-release.aar] /Users/junwang/.gradle/caches/transforms-2/files-2.1/34ab32c16dd94dfb9d2e202c5113de77/uniapp-v8-release/AndroidManifest.xml:33:13-37
+208        </receiver>
+209
+210        <activity
+210-->[:uniplugin_module] /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/uniplugin_module/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:84
+211            android:name="io.dcloud.uniplugin.NativePageActivity"
+211-->[:uniplugin_module] /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/uniplugin_module/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-66
+212            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
+212-->[:uniplugin_module] /Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/uniplugin_module/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-81
+213    </application>
+214
+215</manifest>

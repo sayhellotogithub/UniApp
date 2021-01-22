@@ -1,0 +1,34 @@
+{
+  "name": "TestModule",
+  "id": "TestModule",
+  "version": "1.0.0",
+  "description": "测试",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+			"plugins": [{
+				"type": "module",
+				"name": "TestModule",
+				"class": "io.dcloud.uniplugin.TestModule"
+			}
+			],
+			"integrateType":"aar",
+			"abis":[
+				"armeabi",
+				"armeabi-v7a"
+			],
+			"minSdkVersion":"16",
+			"dependencies":[
+				"com.android.support.constraint:constraint-layout:1.1.3",
+				"com.alibaba:fastjson:1.1.46.android"  
+			]
+			// "parameters":{
+			// 	"android_appid":{
+			// 		"des":"请填写appid",
+			// 		"key":"TM123456",
+			// 		"placeholder":""
+			// 	}
+			// }
+		}
+  }
+}

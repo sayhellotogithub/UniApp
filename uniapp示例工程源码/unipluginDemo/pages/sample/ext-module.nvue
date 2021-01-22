@@ -1,0 +1,67 @@
+<template>
+	<div>
+		<button type="primary" @click="testAsyncFunc">testAsyncFunc1</button>
+		<button type="primary" @click="testSyncFunc">testSyncFunc1</button>
+		<button type="primary" @click="gotoNativePage">跳转原生Activity1</button>
+		<button @click="gotoface">测试活体SDK11</button>
+	</div>
+</template>
+
+<script>
+	// 获取 module 
+	var testModule = uni.requireNativePlugin("TestModule")
+	const modal = uni.requireNativePlugin('modal');
+	let live= uni.requireNativePlugin("live-plugin");
+	export default {
+		onLoad() {
+			plus.globalEvent.addEventListener('TestEvent', function(e){
+				modal.toast({
+					message: "TestEvent收到："+e.msg,
+					duration: 1.5
+				});
+			});
+		},
+		methods: {
+			testAsyncFunc() {
+				// 调用异步方法
+				testModule.testAsyncFunc({
+						'name': 'unimp',
+						'age': 1
+					},
+					(ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
+					})
+			},
+			testSyncFunc() {
+				// 调用同步方法
+				var ret = testModule.testSyncFunc({
+					'name': 'unimp',
+					'age': 1
+				})
+				modal.toast({
+					message: ret,
+					duration: 1.5
+				});
+			},
+			gotoNativePage() {
+				testModule.gotoNativePage();
+			},
+			gotoface(){
+				modal.toast({
+					message: "gotoface",
+					duration: 1.5
+				});
+				live.testPlugin({'license':"kkkkkk"},
+				(ret) =>{
+					modal.toast({
+						message: "TestEvent收到："+ret,
+						duration: 1.5
+					});
+				})
+			}
+		}
+	}
+</script>

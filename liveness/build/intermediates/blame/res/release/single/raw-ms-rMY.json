@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/raw-ms-rMY/action_open_mouth.mp3",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/res/raw-ms-rMY/action_open_mouth.mp3"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/raw-ms-rMY/action_blink.mp3",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/res/raw-ms-rMY/action_blink.mp3"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/raw-ms-rMY/action_turn_head.mp3",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/res/raw-ms-rMY/action_turn_head.mp3"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/raw-ms-rMY/detection_failed.mp3",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/res/raw-ms-rMY/detection_failed.mp3"
+    },
+    {
+        "merged": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/build/intermediates/res/merged/release/raw-ms-rMY/detection_success.mp3",
+        "source": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/liveness/src/main/res/raw-ms-rMY/detection_success.mp3"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/junwang/Downloads/Android-SDK@3.0.5.80614_20210108/UniPlugin-Hello-AS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v17/values-ldltr-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/junwang/.gradle/caches/transforms-2/files-2.1/34ab32c16dd94dfb9d2e202c5113de77/uniapp-v8-release/res/values-ldltr-v17/values-ldltr-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

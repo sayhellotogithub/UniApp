@@ -1,0 +1,6 @@
+com.ipi.liveness.sdk.activity.LivenessActivity:
+    private static final int PERMISSIONS_REQUEST_CODE
+com.ipi.liveness.LivenessPlugin
+com.ipi.liveness.BuildConfig
+com.ipi.liveness.sdk.fragment.LivenessFragment$1:
+    final synthetic com.ipi.liveness.sdk.fragment.LivenessFragment this$0

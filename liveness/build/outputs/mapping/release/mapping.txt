@@ -1,0 +1,59 @@
+# compiler: R8
+# compiler_version: 2.0.74
+# pg_map_id: a32809f
+# common_typos_disable
+com.ipi.liveness.sdk.activity.LivenessActivity -> com.ipi.liveness.sdk.activity.LivenessActivity:
+    com.ipi.liveness.sdk.fragment.LivenessFragment mLivenessFragment -> a
+    android.support.v7.app.AlertDialog mErrorDialog -> b
+    boolean allGranted(int[]) -> a
+    boolean allPermissionsGranted() -> a
+    void changeAppBrightness(int) -> a
+    void attachFragment() -> b
+    java.lang.String[] getRequiredPermissions() -> c
+    void onPermissionRefused() -> d
+com.ipi.liveness.sdk.activity.LivenessActivity$1 -> com.ipi.liveness.sdk.activity.LivenessActivity$a:
+    java.lang.String val$errorMsg -> a
+    com.ipi.liveness.sdk.activity.LivenessActivity this$0 -> b
+com.ipi.liveness.sdk.activity.LivenessActivity$2 -> com.ipi.liveness.sdk.activity.LivenessActivity$b:
+    com.ipi.liveness.sdk.activity.LivenessActivity this$0 -> a
+com.ipi.liveness.sdk.fragment.LivenessFragment -> com.ipi.liveness.a.a.a:
+    android.app.ProgressDialog mInitProgressDialog -> i
+    android.view.View mProgressLayout -> h
+    ai.advance.liveness.lib.LivenessView mLivenessView -> c
+    android.util.SparseArray mDrawableCache -> a
+    android.widget.TextView mTipTextView -> e
+    android.widget.TextView mTimerView -> f
+    android.widget.ImageView mTipImageView -> d
+    android.widget.CheckBox mVoiceCheckBox -> g
+    android.widget.ImageView mMaskImageView -> b
+    ai.advance.liveness.lib.LivenessView access$000(com.ipi.liveness.sdk.fragment.LivenessFragment) -> a
+    void changeTipTextView(int) -> a
+    void findViews() -> a
+    android.graphics.drawable.AnimationDrawable getDrawRes(ai.advance.liveness.lib.Detector$DetectionType) -> a
+    void updateTipUIView(ai.advance.liveness.lib.Detector$WarnCode) -> a
+    void access$100(com.ipi.liveness.sdk.fragment.LivenessFragment) -> b
+    void initData() -> b
+    android.view.View access$200(com.ipi.liveness.sdk.fragment.LivenessFragment) -> c
+    com.ipi.liveness.sdk.fragment.LivenessFragment newInstance() -> c
+    android.widget.TextView access$300(com.ipi.liveness.sdk.fragment.LivenessFragment) -> d
+    void playSound() -> d
+    android.widget.CheckBox access$400(com.ipi.liveness.sdk.fragment.LivenessFragment) -> e
+    void release() -> e
+    android.widget.ImageView access$500(com.ipi.liveness.sdk.fragment.LivenessFragment) -> f
+    void setResultData() -> f
+    android.widget.TextView access$600(com.ipi.liveness.sdk.fragment.LivenessFragment) -> g
+    void showActionTipUIView() -> g
+    void access$700(com.ipi.liveness.sdk.fragment.LivenessFragment) -> h
+com.ipi.liveness.sdk.fragment.LivenessFragment$1 -> com.ipi.liveness.a.a.a$a:
+    android.support.v4.app.FragmentActivity val$activity -> a
+com.ipi.liveness.sdk.fragment.LivenessFragment$2 -> com.ipi.liveness.a.a.a$b:
+    com.ipi.liveness.sdk.fragment.LivenessFragment this$0 -> a
+com.ipi.liveness.sdk.fragment.LivenessFragment$3 -> com.ipi.liveness.a.a.a$c:
+    com.ipi.liveness.sdk.fragment.LivenessFragment this$0 -> b
+    java.lang.String val$errorMessage -> a
+com.ipi.liveness.sdk.fragment.LivenessFragment$4 -> com.ipi.liveness.a.a.a$d:
+    com.ipi.liveness.sdk.fragment.LivenessFragment this$0 -> a
+com.ipi.liveness.sdk.fragment.LivenessFragment$5 -> com.ipi.liveness.a.a.a$e:
+    int[] $SwitchMap$ai$advance$liveness$lib$Detector$WarnCode -> b
+    int[] $SwitchMap$ai$advance$liveness$lib$Detector$DetectionFailedType -> c
+    int[] $SwitchMap$ai$advance$liveness$lib$Detector$DetectionType -> a
